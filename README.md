@@ -1,2 +1,1 @@
-# -Boi-nos-Ares-
-Site oficial do Boi nos Ares, o açougue que virou sucesso com anúncio, música e qualidade de outro nível. Aqui, carne boa e experiência digital andam juntas. Sabor, tradição e tecnologia no ponto certo! 🔥
+Esse site foi desenvolvido em um projeto do curso IA Brasil administrada pelo governo do DF. O objetivo foi fazer um açougue virtual fictício feito por mim meesmo, fiz uma música e um anúncio no site também.
