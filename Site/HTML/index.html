@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boi nos Ares</title>
+    <link rel="icon" type="image/png" href="../IMG/MENORES/Fivecon - Boi nos Ares.png">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script src="../JAVASCRIPT/scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <img src="../IMG/MENORES/Logo - 367 px 146.png" alt="Logo Boi nos Ares">
+      <form>
+        <div class="search">
+          <span class="search-icon material-symbols-outlined">search</span>
+          <input class="search-input" type="search" placeholder="Faça sua pesquisa aqui!">
+        </div>
+      </form>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <div class="slides">
+      <div class="slide active">
+        <img src="../IMG/MAIORES/BANNER 1.png" alt="Carne de alta qualidade">
+      </div>
+      <div class="slide">
+        <img src="../IMG/MAIORES/BANNER 2.png" alt="Cortes nobres">
+      </div>
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </section>
+
+  <br><br>
+
+  <section class="descricao">
+    <h2>Sobre Nós</h2>
+    <p>
+      Bem-vindo à <strong>Boi nos Ares</strong>, seu açougue de confiança que oferece os melhores cortes de carne com qualidade e excelência. Nossa missão é proporcionar produtos frescos e um atendimento diferenciado para transformar cada refeição em uma experiência única.
+    </p>
+  </section>
+
+  <br><br>
+
+  <section class="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="product-cards">
+      <div class="product-card">
+        <img src="../IMG/MENORES/KA-BAR.webp" alt="Faca KA-BAR">
+        <h3><a href="produtos1.html">Faca KA-BAR</a></h3>
+        <div class="price">
+          <span class="price-before">R$ 300,00</span>
+          <div class="price-now">R$ 180,00</div>
+      </div>
+        <p>Lâmina afiada, durabilidade extrema e conforto no manuseio. A escolha ideal para cortes precisos no açougue!</p>
+      </div>
+      <div class="product-card">
+        <img src="../IMG/MENORES/Torresminho.png" alt="Torresminho">
+        <h3><a href="produtos2.html">Torresminho</a></h3>
+        <div class="price">
+          <span class="price-before">R$ 80,00</span>
+          <div class="price-now">R$ 50,00</div>
+      </div>
+        <p>Conheça Torresminho, o touro simpático e cheio de personalidade que vai alegrar seu dia!</p>
+      </div>
+    </div>
+  </section>
+
+<br><br><br>
+
+   <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Boi nos Ares</h1>
+            <p>Transformando desejos em realidade, uma compra de cada vez.</p>
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>   
+                </a>
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>  
+                </a>
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>   
+                </a>
+            </div>
+        </div>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Loja</h3>
+            </li>
+            <li>
+                <a href="../HTML/index.html" class="footer-link">Página Inicial</a>
+            </li>
+            <li>
+                <a href="../HTML/contatos.html" class="footer-link">Contatos</a>
+            </li>
+
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Produtos</h3>
+            </li>
+            <li>
+                <a href="../HTML/produtos1.html" class="footer-link">KA-BAR</a>
+            </li>
+            <li>
+                <a href="../HTML/produtos2.html" class="footer-link">Torresminho</a>
+            </li>
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Se Inscreva</h3>
+            <p>Digite seu e-mail para ser notificado.</p>
+            <div id="input_group">
+                <input type="email" id="email" placeholder="Enter your email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer_copyright">
+        &#169;Boi nos Ares. 
+        Todos os direitos reservados. CNPJ: 86.788.767/0001-42 - boinosares4@gmail.com
+    </div>
+</footer>
+</body>
+</html>
